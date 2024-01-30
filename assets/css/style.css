@@ -254,7 +254,7 @@ section .words_welcome_pato {
 }
 
 .four_section button {
-    display: flex;
+    /* display: flex; */
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -263,6 +263,7 @@ section .words_welcome_pato {
     border-radius: 10px;
     color: aliceblue;
     border: 0;
+    margin-left: 240px;
     background-color: #111111;
 }
 .four_section button:hover {
