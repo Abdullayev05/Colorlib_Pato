@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: fixed;
+    padding-top: 100px;
+}
+
+.pato_img {
+    width: 80px;
+    height: 40px;
+}
+
+header ul {
+    display: flex;
+    gap: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header a {
+    color: white;
+}
+
+header .icons {
+    display: flex;
+    gap: 25px;
+    color: white;
+}
+
+.welcome_pato_img {
+    background-image: url("../imgs/Welcome_pato_img.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.welcome_pato_img_two {
+    background-image: url("../imgs/header_meat.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.welcome_pato_img_three {
+    background-image: url("../imgs/header_three.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.welcome_pato {
+    text-align: center;
+    /* padding-top: 200px; */
+}
+
+section .words_welcome_pato {
+    padding-top: 200px;
+}
+
+.welcome {
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Courgette';
+}
+
+.pato_place {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    color: white;
+}
+
+.look_menu {
+    width: 110px;
+    height: 32px;
+    color: rgba(255, 0, 0, 0.651);
+    border-radius: 10px;
+    border: 1px;
+    font-size: 12px;
+}
+
+.look_menu:hover {
+    background-color: red;
+    color: wheat;
+    transition: 0.5s;
+}
+
+.two_section {
+    margin-top: 200px;
+}
+
+.two_section_two_img {
+    background-image: url("../imgs/bg-event-01.jpg.webp");
+    position: a;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.two_section_one_img {
+    background-image: url("../imgs/bg-event-02.jpg.webp");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.two_section_three_img {
+    background-image: url("../imgs/bg-event-04.jpg.webp");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.ssssssss {
+    position: absolute;
+    text-align: center;
+    color: blue;
+}
+
+.img_on_top_one {
+    background-image: url("../imgs/event-01.jpg.webp");
+    width: 580px;
+    height: 390px;
+    position: absolute;
+}
+
+.three_th_section {
+    margin-top: 200px;
+}
+
+.customers_rewiev {
+    text-align: center;
+}
+
+.customers {
+    font-family: 'Courgette';
+    color: #d61c22;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.rewiev {
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.three_th_section img {
+    width: 110px;
+    height: 110px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.swiper-wrapper {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.swiper-wrapper p {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.swiper-wrapper i {
+    color: #d61c22;
+    padding-top: 20px;
+}
+
+.swiper-wrapper h4 {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #222222;
+}
+
+.four_section {
+    margin-top: 200px;
+}
+
+.inputs {
+    width: 800px;
+    line-height: 82px;
+}
+
+.four_section input {
+    width: 266px;
+    height: 46px;
+    margin: 15px;
+    border: 2px solid #666666;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+.four_section img {
+    width: 390px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+.four_section .container {
+    display: flex;
+}
+
+.four_section h3 {
+    font-family: 'Courgette';
+    font-size: 30px;
+    font-weight: 100;
+    color: #d61c22;
+}
+
+.four_section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.reservation_bookTable {
+    text-align: center;
+    padding-right: 100px;
+}
+
+.four_section button {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: 0;
+    background-color: #111111;
+}
+.four_section button:hover {
+    background-color: #d61c22;
+    transition: 0.5s;
+}
